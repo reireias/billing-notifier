@@ -1,0 +1,9 @@
+{
+  "name": "billing-notifier",
+  "version": "0.0.1",
+  "description": "Notify SaaS billing report to Slack",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/reireias/billing-notifier",
+  "author": "reireias <reireias@gmail.com>",
+  "license": "MIT"
+}
