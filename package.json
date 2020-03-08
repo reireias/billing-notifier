@@ -5,5 +5,19 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/reireias/billing-notifier",
   "author": "reireias <reireias@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "aws-sdk": "^2.635.0",
+    "csv-string": "^3.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
 }
