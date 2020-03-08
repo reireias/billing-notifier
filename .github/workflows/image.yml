@@ -1,0 +1,22 @@
+name: image
+
+on:
+  push:
+    branches:
+      - "!*"
+    tags:
+      - "*.*.*"
+
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup docker for arm
+        run: docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
+      - name: build image for arm
+        run: docker build -t reireias/billing-notifier:arm-${{ github.ref }} -f Dockerfile.arm .
+      - name: push image
+        run: |
+          docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASS }}
+          docker push reireias/billing-notifier:arm-${{ github.ref }}
