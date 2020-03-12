@@ -64,4 +64,4 @@ $ docker run --rm \
 `AWS_PREFIX`: billing report prefix in bucket
 
 ## GCP
-TODO
+`GCP_BUCKET`: billing report bucket name
