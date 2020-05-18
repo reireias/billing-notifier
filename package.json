@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@google-cloud/storage": "^4.6.0",
+    "@google-cloud/storage": "^5.0.0",
     "@slack/webhook": "^5.0.3",
     "aws-sdk": "^2.678.0",
     "csv-string": "^3.1.8"
