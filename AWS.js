@@ -17,7 +17,7 @@ const reportKey = async (bucket, prefix) => {
   const client = new S3()
   const params = {
     Bucket: bucket,
-    Key: `${prefix}/${dateKey()}/billing-Manifest.json`
+    Key: `${prefix}/${dateKey()}/billing-Manifest.json`,
   }
   const result = await client.getObject(params).promise()
   const data = JSON.parse(result.Body.toString())
@@ -28,7 +28,7 @@ const getReport = async (bucket, prefix) => {
   const client = new S3()
   const params = {
     Bucket: bucket,
-    Key: await reportKey(bucket, prefix)
+    Key: await reportKey(bucket, prefix),
   }
   const result = await client.getObject(params).promise()
   return zlib.gunzipSync(result.Body).toString()
@@ -39,7 +39,7 @@ const getCost = async (bucket, prefix) => {
   const [header, ...records] = CSV.parse(body)
   const costIndex = header.indexOf('lineItem/BlendedCost')
   let sum = 0
-  records.forEach(record => {
+  records.forEach((record) => {
     sum += Number(record[costIndex])
   })
   return sum.toFixed(2)

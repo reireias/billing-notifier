@@ -23,7 +23,7 @@ const main = async () => {
   if (text.length) {
     const webhook = new IncomingWebhook(webhookUrl)
     await webhook.send({
-      text: text.join('\n')
+      text: text.join('\n'),
     })
   }
 }
