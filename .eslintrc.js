@@ -1,16 +1,11 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
   },
   parserOptions: {
-    ecmaVersion: 2018
+    ecmaVersion: 2018,
   },
-  extends: [
-    'prettier',
-    'plugin:prettier/recommended',
-  ],
-  plugins: [
-    'prettier'
-  ]
+  extends: ['prettier', 'plugin:prettier/recommended'],
+  plugins: ['prettier'],
 }
