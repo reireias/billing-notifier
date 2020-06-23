@@ -2,6 +2,9 @@
 # billing-notifier
 Notify to Slack billing report of AWS, GCP.
 
+## Screenshot
+![Screenshot from 2020-06-23 12-04-11](https://user-images.githubusercontent.com/24800246/85356399-d7717b00-b549-11ea-803f-e9866701b258.png)
+
 ## Usage
 ### run with node
 
