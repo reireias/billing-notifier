@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@google-cloud/storage": "^5.8.1",
-    "@slack/webhook": "^5.0.3",
+    "@slack/webhook": "^6.0.0",
     "aws-sdk": "^2.858.0",
     "csv-string": "^4.0.1"
   },
