@@ -1,4 +1,4 @@
-![image](https://github.com/reireias/billing-notifier/workflows/image/badge.svg) ![test](https://github.com/reireias/billing-notifier/workflows/test/badge.svg)
+[![image](https://github.com/reireias/billing-notifier/actions/workflows/image.yml/badge.svg)](https://github.com/reireias/billing-notifier/actions/workflows/image.yml) [![test](https://github.com/reireias/billing-notifier/actions/workflows/test.yml/badge.svg)](https://github.com/reireias/billing-notifier/actions/workflows/test.yml)
 # billing-notifier
 Notify to Slack billing report of AWS, GCP.
 
