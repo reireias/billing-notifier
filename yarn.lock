@@ -94,14 +94,14 @@
   resolved "https://registry.yarnpkg.com/@slack/types/-/types-1.4.0.tgz#24e0f0cd5b3c4578a7e023aba97969d89c667562"
   integrity sha512-G5u2gCl7oci0k4E9KIX33nmA4YPp1pXYwS/It7ct9dOglCcj63Ee5GRCgtplzOBS+2++DMdp6l3ZCq+VeAMrfw==
 
-"@slack/webhook@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@slack/webhook/-/webhook-6.0.0.tgz#844593c1e864a966e549f60bb640586628f3c1c4"
-  integrity sha512-2fohfhLI9lkAmOSWt1R457JBsB3iFNqahu4GqdFZRtcp/bT+xeG/kPn/hQa78JS74poRjWTt5G/qJjNaWMGOEQ==
+"@slack/webhook@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@slack/webhook/-/webhook-6.1.0.tgz#ac9c8add919f0f5ab9440a24e76b2f83adcc0f2c"
+  integrity sha512-7AYNISyAjn/lA/VDwZ307K5ft5DojXgBd3DRrGoFN8XxIwIyRALdFhxBiMgAqeJH8eWoktvNwLK24R9hREEqpA==
   dependencies:
     "@slack/types" "^1.2.1"
     "@types/node" ">=12.0.0"
-    axios "^0.21.1"
+    axios "^0.21.4"
 
 "@tootallnate/once@1":
   version "1.0.0"
@@ -202,7 +202,7 @@ aws-sdk@^2.1023.0:
     uuid "3.3.2"
     xml2js "0.4.19"
 
-axios@^0.21.1:
+axios@^0.21.4:
   version "0.21.4"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
   integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
