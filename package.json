@@ -13,7 +13,7 @@
     "@google-cloud/storage": "^5.15.5",
     "@slack/webhook": "^6.0.0",
     "aws-sdk": "^2.1023.0",
-    "csv-string": "^4.0.1"
+    "csv-string": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
